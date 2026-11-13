@@ -21,6 +21,13 @@
       <version>5.5.0</version>
       <scope>test</scope>
     </dependency>
+    <!-- serve a REST Assured per trasformare le Map in JSON nel body -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.17.2</version>
+      <scope>test</scope>
+    </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
